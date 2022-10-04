@@ -1,0 +1,138 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;
+    color: #000
+}
+
+.intro{
+    width:100%;
+    height:400px;
+    background:black
+}
+.intro1{
+    width:100%;
+    width:100%;
+    height:50px
+}
+.name > a{
+    color:#fff;
+    font-size:50px;
+    margin-left:15px;
+}
+.header{
+    margin-top:10px;
+    display:flex;
+    float:right;
+    margin-right:50px;
+    width:250px
+}
+.login{
+    margin-top:-40px;
+    flex: 1;
+}
+.login>a{
+    font-size:25px;
+    font-weight:bold;
+    text-align:center;
+    cursor:pointer;
+    color:#fff
+}
+.intro2{
+    width:100%;
+    height:70px
+}
+.nav{
+    display:flex;
+    justify-content:flex-end;
+    line-height:86px;
+    margin-right:150px
+}
+.nav>li{
+    margin-left:50px;
+    cursor:pointer;
+    font-size:30px
+}
+.nav>li>a{
+    color:#fff
+}
+
+.contents_icons1 {
+    font-size: 23px;
+    margin-top:100px;
+}
+
+.information_list {
+    width:100%;
+    height: 850px;
+    background: #f1f2f3;
+    text-align:center;    
+}
+
+.information_list > h1 {
+    font-size:40px;
+    letter-spacing: 3px;
+    padding-top: 30px;
+}
+
+.icons1 {
+    display: flex;
+    height: 300px;
+    width:1280px;
+    margin:40px auto;
+}
+
+.icons1 > li {
+    flex:1;
+    background: white;
+    text-align:center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.icons1 > li:not(:last-child) {
+    margin-right: 40px;
+}
+
+.icons2 {
+    display: flex;
+    height: 300px;
+    width:1280px;
+    margin:40px auto;
+}
+
+.icons2 > li {
+    flex:1;
+    background: white;
+    text-align:center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.icons2 > li:not(:last-child) {
+    margin-right: 40px;
+}
+
+
+.contact{
+    display:flex;
+    width:100%;
+    height:300px;
+    background:black;
+}
+.con{
+    flex:8;
+    margin-left:20px;
+    margin-top:70px;
+    font-size:25px;
+    font-weight:lighter;
+    color:#fff;
+}
+.contact > a{
+    flex:4;
+    text-align:center;
+    font-size:57px;
+    margin:auto;
+    color:#fff;
+}

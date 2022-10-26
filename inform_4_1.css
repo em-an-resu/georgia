@@ -1,0 +1,183 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;
+    color: #000
+}
+
+.intro{
+    width:1905px;
+    height:400px;
+    background:black
+}
+.intro1{
+    width:100%;
+    width:100%;
+    height:50px
+}
+.name > a{
+    color:#fff;
+    font-size:50px;
+    margin-left:15px;
+}
+.header{
+    margin-top:10px;
+    display:flex;
+    float:right;
+    margin-right:50px;
+    width:250px
+}
+.login > a{
+    flex:1;
+    font-size:25px;
+    font-weight:bold;
+    text-align:center;
+    cursor:pointer;
+    color:#fff
+}
+.intro2{
+    width:100%;
+    height:70px
+}
+.nav{
+    display:flex;
+    justify-content:flex-end;
+    line-height:86px;
+    margin-right:150px
+}
+.nav>li{
+    margin-left:50px;
+    cursor:pointer;
+    font-size:30px
+}
+.nav>li>a{
+    color:#fff
+}
+
+
+
+/* inform_1.html > div class="main" */
+
+/* 공통 요소 */
+
+
+
+/* ------------------ */
+
+
+
+.information_list {
+    width:1905px;
+    height: 2300px;
+    background: #f1f2f3;
+    text-align:center;    
+}
+
+.information_list > h1 {
+    font-size:40px;
+    letter-spacing: 3px;
+    padding-top: 30px;
+}
+
+.explanation {
+    padding-bottom: 30px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    font-size:20px;
+}
+
+#grid ol {
+    border-right:1px solid rgb(214, 212, 212);
+    width: 320px;
+    margin: 50px 230px;
+    text-align:left;
+}
+
+#grid a {
+    color: rgb(163, 162, 162);
+}
+
+#grid .bold {
+    font-size: 23px;
+}
+
+.text1 {
+    font-size:25px;
+    margin-top:-180px;
+    
+}
+
+.introduce {
+    display: flex;
+    font-size:20px;
+    margin-left:720px;
+    
+}
+
+.introduce > li {
+    color:rgb(77, 76, 76);
+}
+
+.img_clearreader {
+    margin-top:-30px;
+    margin-left:50px;
+}
+
+.subtitle {
+    font-size:23px;
+    text-align:left;
+    font-weight:bold;
+    margin-left:570px;
+    padding-bottom:10px;
+}
+
+.contents {
+    font-size:20px;
+    color:rgb(121, 120, 120);
+    text-align:left;
+    margin-left:570px;
+}
+
+.num {
+    margin-left:350px;
+    font-weight:bold;
+    font-size:25px;
+}
+
+
+/* --------------------- */
+
+
+
+
+
+
+/* 맨 아래 contact */
+
+.contact{
+    display:flex;
+    width:1905px;
+    height:300px;
+    background:black;
+}
+.con{
+    flex:8;
+    margin-left:20px;
+    margin-top:70px;
+    font-size:25px;
+    font-weight:lighter;
+    color:#fff;
+}
+.contact > a{
+    flex:4;
+    text-align:center;
+    font-size:57px;
+    margin:auto;
+    color:#fff;
+}

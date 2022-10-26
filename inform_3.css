@@ -1,0 +1,172 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding:0px;
+    color: #000
+}
+
+.intro{
+    width:1905px;
+    height:400px;
+    background:black
+}
+.intro1{
+    width:100%;
+    width:100%;
+    height:50px
+}
+.name > a{
+    color:#fff;
+    font-size:50px;
+    margin-left:15px;
+}
+.header{
+    margin-top:10px;
+    display:flex;
+    float:right;
+    margin-right:50px;
+    width:250px
+}
+.login > a{
+    flex:1;
+    font-size:25px;
+    font-weight:bold;
+    text-align:center;
+    cursor:pointer;
+    color:#fff
+}
+.intro2{
+    width:100%;
+    height:70px
+}
+.nav{
+    display:flex;
+    justify-content:flex-end;
+    line-height:86px;
+    margin-right:150px
+}
+.nav>li{
+    margin-left:50px;
+    cursor:pointer;
+    font-size:30px
+}
+.nav>li>a{
+    color:#fff
+}
+
+
+
+/* inform_2.html > div class="main" */
+
+/* 공통 요소 */
+
+
+
+/* ------------------ */
+
+
+
+.information_list {
+    width:1905px;
+    height:1400px;
+    background: white;
+    text-align:center;
+    background-image: linear-gradient(
+        rgba(143, 141, 141, 0.8),
+        rgba(143, 141, 141, 0.8)
+    ), url("image/iac_1.jpg");   
+    
+}
+
+.information_list > h1 {
+    font-size:40px;
+    letter-spacing: 3px;
+    padding-top: 30px;
+}
+
+.explanation {
+    padding-bottom: 30px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    font-size:20px;
+}
+    
+
+#grid ol {
+    border-right:1px solid rgb(214, 212, 212);
+    width: 320px;
+    margin: 50px 230px;
+    text-align:left;
+    margin-right:500px;
+}
+
+#grid a {
+    color: rgb(128, 126, 126);
+}
+
+#grid .bold {
+    font-size: 23px;
+}
+
+/* ------------------ */
+
+.iac_title {
+    font-size:33px;
+    font-weight:bold;
+    margin-top:-215px;
+    margin-left:-570px;
+}
+
+.iac_contents {
+    font-size:20px;
+    margin-left:290px;
+    line-height:150%;
+}
+
+.subtitle {
+    font-size:25px;
+    font-weight:bold;
+    margin-left:-460px;
+}
+
+.sub_contents {
+    font-size:20px;
+    line-height:170%;
+}
+
+.subtitle2 {
+    font-size:25px;
+    font-weight:bold;
+    margin-left:-520px;
+}
+
+
+/* 맨 아래 contact */
+
+.contact{
+    display:flex;
+    width:1905px;
+    height:300px;
+    background:black;
+}
+.con{
+    flex:8;
+    margin-left:20px;
+    margin-top:70px;
+    font-size:25px;
+    font-weight:lighter;
+    color:#fff;
+}
+.contact > a{
+    flex:4;
+    text-align:center;
+    font-size:57px;
+    margin:auto;
+    color:#fff;
+}

@@ -30,8 +30,11 @@
     margin-right:50px;
     width:250px
 }
-.login > a {
+.login{
+    margin-top:-40px;
     flex: 1;
+}
+.login>a{
     font-size:25px;
     font-weight:bold;
     text-align:center;
